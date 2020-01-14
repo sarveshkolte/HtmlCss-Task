@@ -1,0 +1,120 @@
+*{
+    font-family: sans-serif;
+}
+
+.heading{
+  top: 25%;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+body {
+  font-family: "Century Gothic";
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("Back.jpeg") no-repeat right top;
+  background-size: cover;
+}
+.navbar ul{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar ul li{
+  float: left;
+}
+.navbar ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  background-color: #111;
+}
+.active{
+  background-color: #4CAF50;
+}
+
+
+
+
+
+
+.List {
+  width: 500px;
+  margin: 10px;
+  margin-left: 25%;
+}
+
+.List ol {
+  color: #ccc;
+  list-style-type: none;
+}
+
+.List ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.List li p {
+  font: 15px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.List span {
+  position: absolute;
+}
+table{
+    margin-top: 5%;
+    margin-left: 25%;
+}
+td, th {
+
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+
+}
+tr:nth-child(odd){
+  color: #fff;
+}
+.btn{
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin-left: 50%;
+
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.btn2{
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-left: 40%;
+
+}
+.btn2:hover{
+  background-color: #fff;
+  color: #000;
+}
